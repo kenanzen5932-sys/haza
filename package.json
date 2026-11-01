@@ -2,8 +2,8 @@
   "name": "haza",
   "version": "1.0.0",
   "description": "HAZA Kraliyet Etkinliği",
-  "main": "server.js",
   "scripts": {
+    "build": "echo 'Static deployment ready'",
     "start": "node server.js"
   },
   "keywords": [
