@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no, viewport-fit=cover">
+  <title>HAZA KRALİYET</title>
+  <link rel="icon" type="image/webp" href="assets/favicon.webp">
+  <script>
+    (function() {
+      function setRem() {
+        var width = document.documentElement.getBoundingClientRect().width;
+        if (width > 750) width = 750;
+        var rem = width / 7.5;
+        document.documentElement.style.fontSize = rem + 'px';
+      }
+      setRem();
+      window.addEventListener('resize', setRem);
+      window.addEventListener('pageshow', function(e) { if (e.persisted) setRem(); });
+    })();
+  </script>
+  <link rel="stylesheet" href="style.css?v=rankframe2">
+</head>
+<body>
+
+  <div id="pageContainer" class="monthListRank-page">
+    <div class="wealth-bg-cloor"></div>
+
+    <!-- Top In-Banner -->
+    <div class="inbanner">
+      <img id="titleImg" class="title-en sewss" src="img/activity/mothList/img_ch_title_tr.png" alt="Haza Kraliyet">
+      
+      <!-- Language Switch Button (Left Side) -->
+      <div id="langSwitchBtn" class="lang-switch-btn" title="Dili Değiştir (TR / EN / AR)" role="button" tabindex="0">
+        <div class="lang-switch-inner">
+          <svg class="lang-globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="2" y1="12" x2="22" y2="12"></line>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+          </svg>
+          <span id="langSwitchText">Dil</span>
+        </div>
+      </div>
+
+      <!-- Rules Button -->
+      <div id="rulesBtn" class="rules-btn tr">Kurallar</div>
+
+      <!-- Countdown -->
+      <div class="time-orrr">
+        <div id="dayBox" class="day-root">07</div>
+        <div id="daysLabel" class="text-in">Gün</div>
+        <div id="hourBox" class="day-root">14</div>
+        <div class="day-icon">:</div>
+        <div id="minBox" class="day-root">28</div>
+        <div class="day-icon">:</div>
+        <div id="secBox" class="day-root">45</div>
+      </div>
+    </div>
+
+    <!-- Sticky Two Tabs: Rank / Ödül -->
+    <div class="room-charm-wealth two-tabs">
+      <div id="tabRank" class="tab-item active">Rank</div>
+      <div id="tabReward" class="tab-item inactive">Ödül</div>
+    </div>
+
+    <!-- Main Content for Selected Tab -->
+    <div id="tabContent"></div>
+
+    <!-- Bottom Disclaimer Tips -->
+    <div class="atvt-tips">
+      <span id="atvtTip1">Bu etkinliğin son yorumlama hakkı Haza'ya aittir.</span><br>
+      <span id="atvtTip2">Bu etkinliğin APPLE ile hiçbir ilgisi yoktur</span>
+    </div>
+
+    <!-- Rules Modal (Enhanced Overlay & Close Controls) -->
+    <div id="rulesModal" class="rules-modal-root" style="display: none;">
+      <div class="rules-root-modal">
+        <button id="rulesCloseBtn" class="rules-close-btn" type="button" aria-label="Kapat">&times;</button>
+        <div id="rulesTitleDiv" class="rules-title-wealth">
+          <div id="rulesTextWealth" class="rules-text-wealth">Kural</div>
+        </div>
+        <img class="rule-root-tp" src="img/activity/mothList/ranking_top_border.png">
+        <img class="rule-root-cn" src="img/activity/mothList/ranking_ct_border.png">
+        <img class="rule-root-bm" src="img/activity/mothList/ranking_bm_border.png">
+        <div class="rulse-context">
+          <img class="ig-bg-pp" src="img/activity/mothList/reawrd_bg_bg.png" alt="Rules Background">
+          <div id="rulesContextBg" class="bg-img-op-num-wealth"></div>
+          <div class="text-roots">
+            <div id="ruleDesc1">1. Etkinlik süresince, belirlenen her bir hediyeyi gönderdiğinizde belirli miktarda puan kazanacaksınız.</div>
+            <div id="ruleDesc2">2. Hafta boyunca belirlenen hediyeler için harcanan altın sikkeler, liderlik tablosuna dahil edilecektir. Sıralamalar gerçek zamanlı olarak güncellenir ve ödüller haftalık olarak dağıtılır.</div>
+            <div id="ruleDesc3">3. Etkinlik süresi, ödüller ve liderlik tablosu bilgileri, sayfada görüntülenenlere tabidir.</div>
+            <div id="ruleDesc4">4. Hile, yapay şişirme veya anormal işlemler tespit edilmesi durumunda, platform katılımcıları diskalifiye etme ve ödüllerini iptal etme hakkını saklı tutar.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- end pageContainer -->
+
+  <!-- Media Preview Modal (Clean, No Card Background, Soft Dimmed Backdrop, Perfectly Centered) -->
+  <div id="previewModal" class="custom-preview-modal">
+    <button id="previewCloseBtn" class="custom-preview-close" aria-label="Kapat">&times;</button>
+    <div class="custom-preview-content">
+      <div id="previewMedia" class="custom-preview-media"></div>
+      <div id="previewTitle" class="custom-preview-title"></div>
+    </div>
+  </div>
+
+  <script src="svga.min.js"></script>
+  <script src="svga_frames_data.js"></script>
+  <script src="data.js?v=rankframe2"></script>
+  <script src="app.js?v=rankframe2"></script>
+</body>
+</html>

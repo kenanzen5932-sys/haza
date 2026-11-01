@@ -1,0 +1,1 @@
+System.register(["./index-legacy-3KCcnMu6.js"],function(e,t){"use strict";return{setters:[null],execute:function(){var e=document.createElement("style");e.textContent=".notfound{text-align:center;padding-top:3.28rem}.notfound img{width:2rem;height:2rem}.notfound p{margin-top:.2rem;text-align:center;font-size:.24rem;color:#ccc}\n/*$vite$:1*/",document.head.appendChild(e)}}});

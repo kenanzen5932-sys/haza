@@ -1,0 +1,16 @@
+{
+  "name": "haza",
+  "version": "1.0.0",
+  "description": "HAZA Kraliyet Etkinliği",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "haza",
+    "kraliyet",
+    "etkinlik"
+  ],
+  "author": "kenanzen5932-sys",
+  "license": "ISC"
+}

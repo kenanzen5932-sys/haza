@@ -1,0 +1,412 @@
+window.HAZA_DATA = {
+  "countdown": 648000,
+  "translations": {
+    "tr": {
+      "rules": "Kurallar",
+      "wealth": "Servet",
+      "charm": "Cazibe",
+      "reward": "Ödül",
+      "days": "Gün",
+      "roomText": "Oda",
+      "last_month_winner": "Geçen ayın kazananı",
+      "recharge_rank_activity_title": "Kraliyet Zaferi",
+      "rules_description1": "1. Etkinlik süresince, belirlenen her bir hediyeyi gönderdiğinizde belirli miktarda puan kazanacaksınız.",
+      "rules_description2": "2. Hafta boyunca belirlenen hediyeler için harcanan altın sikkeler, liderlik tablosuna dahil edilecektir. Sıralamalar gerçek zamanlı olarak güncellenir ve ödüller haftalık olarak dağıtılır.",
+      "rules_description3": "3. Etkinlik süresi, ödüller ve liderlik tablosu bilgileri, sayfada görüntülenenlere tabidir.",
+      "wealth_king_acticity_button_introduction_1": "Bu etkinliğin son yorumlama hakkı Haza'ye aittir.",
+      "wealth_king_acticity_button_introduction_2": "Bu etkinliğin APPLE ile hiçbir ilgisi yoktur",
+      "tab_rank": "Rank",
+      "tab_reward": "Ödül",
+      "haza_kraliyet": "HAZA KRALİYET",
+      "event_gifts": "GÖNDERİLECEK HEDİYELER",
+      "modal_close": "Anladım",
+      "rules_modal_title": "Kural",
+      "rules_description4": "4. Hile, yapay şişirme veya anormal işlemler tespit edilmesi durumunda, platform katılımcıları diskalifiye etme ve ödüllerini iptal etme hakkını saklı tutar.",
+      "rules_list": [
+        "1. Etkinlik süresince, belirlenen her bir hediyeyi gönderdiğinizde belirli miktarda puan kazanacaksınız.",
+        "2. Hafta boyunca belirlenen hediyeler için harcanan altın sikkeler, liderlik tablosuna dahil edilecektir. Sıralamalar gerçek zamanlı olarak güncellenir ve ödüller haftalık olarak dağıtılır.",
+        "3. Etkinlik süresi, ödüller ve liderlik tablosu bilgileri, sayfada görüntülenenlere tabidir.",
+        "4. Hile, yapay şişirme veya anormal işlemler tespit edilmesi durumunda, platform katılımcıları diskalifiye etme ve ödüllerini iptal etme hakkını saklı tutar."
+      ],
+      "lang_btn_text": "Dil",
+      "royal_frame": "Haza Kraliyet Çerçevesi"
+    },
+    "en": {
+      "rules": "Rules",
+      "wealth": "Wealth",
+      "charm": "Charm",
+      "days": "Days",
+      "reward": "Reward",
+      "roomText": "Room",
+      "last_month_winner": "Last month's winner",
+      "recharge_rank_activity_title": "Royal glory",
+      "rules_description1": "1. During the event, you will earn a certain amount of points for each designated gift you send.",
+      "rules_description2": "2. Gold coins spent on designated gifts during the week will be included in the leaderboard. Rankings are updated in real time and rewards are distributed weekly.",
+      "rules_description3": "3. Event duration, rewards, and leaderboard information are subject to what is displayed on the page.",
+      "wealth_king_acticity_button_introduction_1": "The final interpretation right of this activity belongs to Haza",
+      "wealth_king_acticity_button_introduction_2": "This activity has nothing to do with APPLE",
+      "tab_rank": "Rank",
+      "tab_reward": "Rewards",
+      "haza_kraliyet": "HAZA ROYAL",
+      "event_gifts": "EVENT GIFTS",
+      "modal_close": "Got It",
+      "rules_modal_title": "Rules",
+      "rules_description4": "4. In case of cheating, artificial inflation, or abnormal transactions detected, the platform reserves the right to disqualify participants and cancel their rewards.",
+      "rules_list": [
+        "1. During the event, you will earn a certain amount of points for each designated gift you send.",
+        "2. Gold coins spent on designated gifts during the week will be included in the leaderboard. Rankings are updated in real time and rewards are distributed weekly.",
+        "3. Event duration, rewards, and leaderboard information are subject to what is displayed on the page.",
+        "4. In case of cheating, artificial inflation, or abnormal transactions detected, the platform reserves the right to disqualify participants and cancel their rewards."
+      ],
+      "lang_btn_text": "Lang",
+      "royal_frame": "Haza Royal Frame"
+    },
+    "ar": {
+      "rules": "القواعد",
+      "wealth": "الثروة",
+      "charm": "الجاذبية",
+      "reward": "المكافأة",
+      "days": "يوم",
+      "roomText": "الغرفة",
+      "last_month_winner": "فائز الشهر الماضي",
+      "recharge_rank_activity_title": "المجد الملكي",
+      "rules_description1": "1. خلال فترة الفعالية، ستحصل على عدد معين من النقاط مقابل كل هدية محددة ترسلها.",
+      "rules_description2": "2. سيتم تضمين العملات الذهبية التي يتم إنفاقها على الهدايا المحددة خلال الأسبوع في قائمة المتصدرين. يتم تحديث الترتيب في الوقت الفعلي وتوزيع المكافآت أسبوعياً.",
+      "rules_description3": "3. تخضع مدة الفعالية والمكافآت ومعلومات قائمة المتصدرين لما هو معروض على الصفحة.",
+      "wealth_king_acticity_button_introduction_1": "الحق النهائي في تفسير هذا النشاط يعود إلى Haza",
+      "wealth_king_acticity_button_introduction_2": "هذا النشاط ليس له علاقة بشركة APPLE",
+      "tab_rank": "الترتيب",
+      "tab_reward": "المكافآت",
+      "haza_kraliyet": "هزة الملكي",
+      "event_gifts": "هدايا الفعالية",
+      "modal_close": "حسناً",
+      "rules_modal_title": "القواعد",
+      "rules_description4": "4. في حال اكتشاف الغش أو التضخيم الاصطناعي أو العمليات غير الطبيعية، تحتفظ المنصة بالحق في استبعاد المشاركين وإلغاء مكافآتهم.",
+      "rules_list": [
+        "1. خلال فترة الفعالية، ستحصل على عدد معين من النقاط مقابل كل هدية محددة ترسلها.",
+        "2. سيتم تضمين العملات الذهبية التي يتم إنفاقها على الهدايا المحددة خلال الأسبوع في قائمة المتصدرين. يتم تحديث الترتيب في الوقت الفعلي وتوزيع المكافآت أسبوعياً.",
+        "3. تخضع مدة الفعالية والمكافآت ومعلومات قائمة المتصدرين لما هو معروض على الصفحة.",
+        "4. في حال اكتشاف الغش أو التضخيم الاصطناعي أو العمليات غير الطبيعية، تحتفظ المنصة بالحق في استبعاد المشاركين وإلغاء مكافآتهم."
+      ],
+      "lang_btn_text": "لغة",
+      "royal_frame": "إطار هازا الملكي"
+    }
+  },
+  "rankData": {
+    "top3": [
+      {
+        "uid": 9574242,
+        "nickname": "HAZA",
+        "avatarurl": "assets/favicon.webp",
+        "score": 35820000
+      },
+      {
+        "uid": 1030767,
+        "nickname": "HAZA",
+        "avatarurl": "assets/favicon.webp",
+        "score": 24150000
+      },
+      {
+        "uid": 9413255,
+        "nickname": "HAZA",
+        "avatarurl": "assets/favicon.webp",
+        "score": 18900000
+      }
+    ],
+    "others": [
+      {
+        "rank": 4,
+        "nickname": "HAZA",
+        "uid": 9482103,
+        "score": 16420000,
+        "avatar": "assets/favicon.webp"
+      },
+      {
+        "rank": 5,
+        "nickname": "HAZA",
+        "uid": 8839211,
+        "score": 14850000,
+        "avatar": "assets/favicon.webp"
+      },
+      {
+        "rank": 6,
+        "nickname": "HAZA",
+        "uid": 7492015,
+        "score": 13200000,
+        "avatar": "assets/favicon.webp"
+      },
+      {
+        "rank": 7,
+        "nickname": "HAZA",
+        "uid": 9102482,
+        "score": 11940000,
+        "avatar": "assets/favicon.webp"
+      },
+      {
+        "rank": 8,
+        "nickname": "HAZA",
+        "uid": 8201943,
+        "score": 10750000,
+        "avatar": "assets/favicon.webp"
+      },
+      {
+        "rank": 9,
+        "nickname": "HAZA",
+        "uid": 7940129,
+        "score": 9800000,
+        "avatar": "assets/favicon.webp"
+      },
+      {
+        "rank": 10,
+        "nickname": "HAZA",
+        "uid": 9381023,
+        "score": 8950000,
+        "avatar": "assets/favicon.webp"
+      },
+      {
+        "rank": 11,
+        "nickname": "HAZA",
+        "uid": 8492012,
+        "score": 8120000,
+        "avatar": "assets/favicon.webp"
+      },
+      {
+        "rank": 12,
+        "nickname": "HAZA",
+        "uid": 7592014,
+        "score": 7450000,
+        "avatar": "assets/favicon.webp"
+      },
+      {
+        "rank": 13,
+        "nickname": "HAZA",
+        "uid": 9182390,
+        "score": 6800000,
+        "avatar": "assets/favicon.webp"
+      },
+      {
+        "rank": 14,
+        "nickname": "HAZA",
+        "uid": 8291048,
+        "score": 6150000,
+        "avatar": "assets/favicon.webp"
+      },
+      {
+        "rank": 15,
+        "nickname": "HAZA",
+        "uid": 7391024,
+        "score": 5600000,
+        "avatar": "assets/favicon.webp"
+      },
+      {
+        "rank": 16,
+        "nickname": "HAZA",
+        "uid": 9481029,
+        "score": 5100000,
+        "avatar": "assets/favicon.webp"
+      },
+      {
+        "rank": 17,
+        "nickname": "HAZA",
+        "uid": 8591023,
+        "score": 4750000,
+        "avatar": "assets/favicon.webp"
+      },
+      {
+        "rank": 18,
+        "nickname": "HAZA",
+        "uid": 7691028,
+        "score": 4300000,
+        "avatar": "assets/favicon.webp"
+      },
+      {
+        "rank": 19,
+        "nickname": "HAZA",
+        "uid": 9281034,
+        "score": 3950000,
+        "avatar": "assets/favicon.webp"
+      },
+      {
+        "rank": 20,
+        "nickname": "HAZA",
+        "uid": 8192039,
+        "score": 3600000,
+        "avatar": "assets/favicon.webp"
+      }
+    ]
+  },
+  "rewardsData": [
+    [
+      {
+        "name_tr": "Kraliyet Zenginlik Çerçevesi",
+        "name_en": "Royal Wealth Frame",
+        "name_ar": "إطار الثراء الملكي",
+        "image_url_tr": "assets/top_rank_frame.png",
+        "image_url_en": "assets/top_rank_frame.png",
+        "image_url_ar": "assets/top_rank_frame.png",
+        "show_url": "assets/top_rank_frame_animated.webp",
+        "days": 30,
+        "prview": 1
+      },
+      {
+        "name_tr": "Siber Hayalet Araç",
+        "name_en": "Cyber Phantom Mount",
+        "name_ar": "مركبة الشبح السيبراني",
+        "image_url_tr": "assets/rewards/28ac41315e8031678366c97c94954cd1.png",
+        "image_url_en": "assets/rewards/28ac41315e8031678366c97c94954cd1.png",
+        "image_url_ar": "assets/rewards/28ac41315e8031678366c97c94954cd1.png",
+        "show_url": "assets/rewards/9a465a46f630df95f6a1bf95de4c4629.mp4",
+        "days": 30,
+        "prview": 1
+      },
+      {
+        "name_tr": "1. Zenginlik Rozeti",
+        "name_en": "Top 1 Wealth Badge",
+        "name_ar": "شارة الثراء الأول",
+        "image_url_tr": "assets/rewards/48ac6fc688b086bce55ec8ea630f76d6.png",
+        "image_url_en": "assets/rewards/48ac6fc688b086bce55ec8ea630f76d6.png",
+        "image_url_ar": "assets/rewards/48ac6fc688b086bce55ec8ea630f76d6.png",
+        "days": 30,
+        "prview": 0
+      },
+      {
+        "name_tr": "Aristokrasi Duke",
+        "name_en": "Aristocracy Duke",
+        "name_ar": "أرستقراطية دوك",
+        "image_url_tr": "assets/rewards/aristokrasi_duke.png",
+        "image_url_en": "assets/rewards/aristokrasi_duke.png",
+        "image_url_ar": "assets/rewards/aristokrasi_duke.png",
+        "days": 30,
+        "prview": 0
+      }
+    ],
+    [
+      {
+        "name_tr": "2. Zenginlik Çerçevesi",
+        "name_en": "Top 2 Wealth Frame",
+        "name_ar": "إطار الثراء الثاني",
+        "image_url_tr": "assets/top_rank_frame.png",
+        "image_url_en": "assets/top_rank_frame.png",
+        "image_url_ar": "assets/top_rank_frame.png",
+        "show_url": "assets/top_rank_frame_animated.webp",
+        "days": 15,
+        "prview": 1
+      },
+      {
+        "name_tr": "Altın Süper Araç",
+        "name_en": "Golden Supercar",
+        "name_ar": "سيارة السوبر الذهبية",
+        "image_url_tr": "assets/rewards/1f125a7f373cb9340531d3be01389b69.png",
+        "image_url_en": "assets/rewards/1f125a7f373cb9340531d3be01389b69.png",
+        "image_url_ar": "assets/rewards/1f125a7f373cb9340531d3be01389b69.png",
+        "show_url": "assets/rewards/a84165acedd6b3116be2406c9764170c.mp4",
+        "days": 15,
+        "prview": 1
+      },
+      {
+        "name_tr": "2. Zenginlik Rozeti",
+        "name_en": "Top 2 Wealth Badge",
+        "name_ar": "شارة الثراء الثاني",
+        "image_url_tr": "assets/rewards/9135d6605a27f6fa1d2a7170e0ced87b.png",
+        "image_url_en": "assets/rewards/9135d6605a27f6fa1d2a7170e0ced87b.png",
+        "image_url_ar": "assets/rewards/9135d6605a27f6fa1d2a7170e0ced87b.png",
+        "days": 15,
+        "prview": 0
+      },
+      {
+        "name_tr": "Aristokrasi Duke",
+        "name_en": "Aristocracy Duke",
+        "name_ar": "أرستقراطية دوك",
+        "image_url_tr": "assets/rewards/aristokrasi_duke.png",
+        "image_url_en": "assets/rewards/aristokrasi_duke.png",
+        "image_url_ar": "assets/rewards/aristokrasi_duke.png",
+        "days": 15,
+        "prview": 0
+      }
+    ],
+    [
+      {
+        "name_tr": "3. Zenginlik Çerçevesi",
+        "name_en": "Top 3 Wealth Frame",
+        "name_ar": "إطار الثراء الثالث",
+        "image_url_tr": "assets/top_rank_frame.png",
+        "image_url_en": "assets/top_rank_frame.png",
+        "image_url_ar": "assets/top_rank_frame.png",
+        "show_url": "assets/top_rank_frame_animated.webp",
+        "days": 7,
+        "prview": 1
+      },
+      {
+        "name_tr": "Gümüş Kuyruklu Araç",
+        "name_en": "Silver Comet Mount",
+        "name_ar": "مركبة المذنب الفضي",
+        "image_url_tr": "assets/rewards/9dedcf5849749c4803fd1742a7249559.png",
+        "image_url_en": "assets/rewards/9dedcf5849749c4803fd1742a7249559.png",
+        "image_url_ar": "assets/rewards/9dedcf5849749c4803fd1742a7249559.png",
+        "show_url": "assets/rewards/5f9d6428768d9094479885330dad532a.mp4",
+        "days": 7,
+        "prview": 1
+      },
+      {
+        "name_tr": "3. Zenginlik Rozeti",
+        "name_en": "Top 3 Wealth Badge",
+        "name_ar": "شارة الثراء الثالث",
+        "image_url_tr": "assets/rewards/4cbe1020d9daf09cd6c1e6a22a502ca3.png",
+        "image_url_en": "assets/rewards/4cbe1020d9daf09cd6c1e6a22a502ca3.png",
+        "image_url_ar": "assets/rewards/4cbe1020d9daf09cd6c1e6a22a502ca3.png",
+        "days": 7,
+        "prview": 0
+      }
+    ]
+  ],
+  "eventGifts": [
+    {
+      "id": 1,
+      "name_tr": "Kraliyet Ejderi",
+      "name_en": "Royal Dragon",
+      "name_ar": "التنين الملكي",
+      "image": "assets/rewards/891fc92e9a4ad3b8230a55dcc0c06d4b.png",
+      "coins": 100000
+    },
+    {
+      "id": 2,
+      "name_tr": "Siber Hayalet",
+      "name_en": "Cyber Phantom",
+      "name_ar": "الشبح السيبراني",
+      "image": "assets/rewards/28ac41315e8031678366c97c94954cd1.png",
+      "coins": 50000
+    },
+    {
+      "id": 3,
+      "name_tr": "Işıltı Kanatları",
+      "name_en": "Radiance Wings",
+      "name_ar": "أجنحة الإشعاع",
+      "image": "assets/rewards/f1d9f1d5615ea16f88703f40578ed986.png",
+      "coins": 25000
+    },
+    {
+      "id": 4,
+      "name_tr": "Altın Süper Araç",
+      "name_en": "Gold Supercar",
+      "name_ar": "السيارة الذهبية",
+      "image": "assets/rewards/1f125a7f373cb9340531d3be01389b69.png",
+      "coins": 10000
+    },
+    {
+      "id": 5,
+      "name_tr": "Yıldız Zeplini",
+      "name_en": "Star Airship",
+      "name_ar": "المنطاد النجمي",
+      "image": "assets/rewards/a72d8e9d64334a4a3a53c20b1c6c4a93.png",
+      "coins": 5000
+    },
+    {
+      "id": 6,
+      "name_tr": "Pembe Kruvazör",
+      "name_en": "Pink Cruiser",
+      "name_ar": "الطراد الوردي",
+      "image": "assets/rewards/81812f36e5b5c04ddf7ecbb77b7a4a18.png",
+      "coins": 1000
+    }
+  ]
+};
